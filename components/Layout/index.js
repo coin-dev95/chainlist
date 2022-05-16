@@ -83,9 +83,9 @@ export default function Layout({ changeTheme, theme, children }) {
                   </Typography>
                 </a>
 
-                {/* <a
+                <a
                   className={`${classes.socialButton}`}
-                  href="https://discord.com/invite/buPFYXzDDd"
+                  href="https://discord.gg/mdrGpWPR7h"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -103,7 +103,7 @@ export default function Layout({ changeTheme, theme, children }) {
                   <Typography variant="body1" className={classes.sourceCode}>
                     Join our Discord
                   </Typography>
-                </a> */}
+                </a>
               </div>
             </div>
           </div>
