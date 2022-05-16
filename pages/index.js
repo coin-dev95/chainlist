@@ -8,7 +8,7 @@ import Layout from "../components/Layout";
 import classes from "../components/Layout/index.module.css";
 
 export async function getStaticProps() {
-  const chains = await fetcher("https://chainid.network/chains.json");
+  const chains = await fetcher("https://raw.githubusercontent.com/ImpossibleFinance/chainidmasterjson/main/chains.json");
   const chainTvls = await fetcher("https://api.llama.fi/chains");
 
   const sortedChains = chains
