@@ -10,7 +10,7 @@ import classes from "./index.module.css";
 import Image from "next/image";
 
 export async function getStaticProps({ params }) {
-  const chains = await fetcher("https://chainid.network/chains.json");
+  const chains = await fetcher("https://raw.githubusercontent.com/ImpossibleFinance/chainidmasterjson/main/chains.json");
 
   const chainTvls = await fetcher("https://api.llama.fi/chains");
 
@@ -25,7 +25,7 @@ export async function getStaticProps({ params }) {
 }
 
 export async function getStaticPaths() {
-  const res = await fetcher("https://chainid.network/chains.json");
+  const res = await fetcher("https://raw.githubusercontent.com/ImpossibleFinance/chainidmasterjson/main/chains.json");
 
   const paths = res.map((chain) => ({
     params: { chain: chain?.networkId?.toString() ?? null },

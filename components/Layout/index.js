@@ -32,11 +32,11 @@ export default function Layout({ changeTheme, theme, children }) {
             <div className={classes.copyCentered}>
               <Typography variant="h1" className={classes.chainListSpacing}>
                 <Link href="/">
-                  <span className={classes.helpingUnderline}>Chainlist</span>
+                  <span className={classes.helpingUnderline}>Impossible Chainlist</span>
                 </Link>
               </Typography>
               <Typography variant="h2" className={classes.helpingParagraph}>
-                Helping users connect to EVM powered networks
+              Helping users connect to EVM powered networks with one click
               </Typography>
               <Typography className={classes.subTitle}>
               Chainlist is a list of EVM networks. Users can use the information to connect their wallets and Web3 middleware providers to the appropriate Chain ID and Network ID to connect to the correct chain. This repository is currently maintained by <a target="_blank" href="https://impossible.finance">impossible.finance</a>
