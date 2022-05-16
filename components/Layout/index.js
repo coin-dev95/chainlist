@@ -8,12 +8,12 @@ import Link from "next/link";
 
 export default function Layout({ changeTheme, theme, children }) {
   const addNetwork = () => {
-    window.open("https://github.com/ethereum-lists/chains", "_blank");
+    window.open("https://github.com/ImpossibleFinance/chains/tree/master/_data/chains", "_blank");
   };
 
   const addRpc = () => {
     window.open(
-      "https://github.com/DefiLlama/chainlist/blob/main/constants/extraRpcs.json",
+      "https://github.com/ImpossibleFinance/chainlist/blob/main/constants/extraRpcs.json",
       "_blank"
     );
   };

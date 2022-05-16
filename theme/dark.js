@@ -7,11 +7,11 @@ const theme = createTheme({
   palette: {
     ...coreTheme.palette,
     background: {
-      default: '#22252E',
-      paper: '#2B2E3C'
+      default: '#050A5A',
+      paper: '#00DAFF'
     },
     primary: {
-      main: '#2F80ED',
+      main: '#00DAFF',
     },
     type: 'dark',
   },
@@ -22,7 +22,7 @@ const theme = createTheme({
       outlinedPrimary: {
         border: '1px solid #FFFFFF1A',
         "&:hover": {
-          backgroundColor: '#2F80ED !important',
+          backgroundColor: '#00DAFF !important',
           color: '#fff'
         }
       }

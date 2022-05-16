@@ -38,10 +38,10 @@ function MyApp({ Component, pageProps }) {
   }, []);
 
   useEffect(() => {
-    Fathom.load('TKCNGGEZ', {
-      includedDomains: ['chainlist.defillama.com', 'chainlist.org'],
-      url: 'https://surprising-powerful.llama.fi/script.js',
-    });
+    // Fathom.load('VIJRFJGW', {
+    //   includedDomains: ['impossiblechainlist.vercel.app'],
+    //   url: 'https://surprising-powerful.llama.fi/script.js',
+    // });
 
     function onRouteChangeComplete() {
       Fathom.trackPageview();
