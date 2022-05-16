@@ -39,10 +39,7 @@ export default function Layout({ changeTheme, theme, children }) {
                 Helping users connect to EVM powered networks
               </Typography>
               <Typography className={classes.subTitle}>
-                Chainlist is a list of EVM networks. Users can use the
-                information to connect their wallets and Web3 middleware
-                providers to the appropriate Chain ID and Network ID to connect
-                to the correct chain.
+              Chainlist is a list of EVM networks. Users can use the information to connect their wallets and Web3 middleware providers to the appropriate Chain ID and Network ID to connect to the correct chain. This repository is currently maintained by <a target="_blank" href="https://impossible.finance">impossible.finance</a>
               </Typography>
               <Button
                 size="large"
@@ -71,7 +68,7 @@ export default function Layout({ changeTheme, theme, children }) {
               <div className={classes.socials}>
                 <a
                   className={`${classes.socialButton}`}
-                  href="https://github.com/DefiLlama/chainlist"
+                  href="https://github.com/ImpossibleFinance/chainlist"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -86,7 +83,7 @@ export default function Layout({ changeTheme, theme, children }) {
                   </Typography>
                 </a>
 
-                <a
+                {/* <a
                   className={`${classes.socialButton}`}
                   href="https://discord.com/invite/buPFYXzDDd"
                   target="_blank"
@@ -106,7 +103,7 @@ export default function Layout({ changeTheme, theme, children }) {
                   <Typography variant="body1" className={classes.sourceCode}>
                     Join our Discord
                   </Typography>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
